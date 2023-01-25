@@ -9,4 +9,6 @@ const makeBurger = () => {
     - ${getRandomComponent(componentTwo)} - middle bun - ${getRandomComponent(componentOne)} 
     - ${getRandomComponent(componentThree)} and a bottom bun.`;
 };
-document.getElementById("game").innerHTML = makeBurger();
+const game = () => {
+return document.getElementById("game").innerHTML = makeBurger();
+};

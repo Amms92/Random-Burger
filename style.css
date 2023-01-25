@@ -32,9 +32,11 @@ a:hover {
     text-decoration: underline;
     color: red;
 }
-main{
-    /* height: 3000px; */
-}
-button {
+input {
     color: red;
+    margin: 2rem 0;
+}
+#game {
+    background-color: whitesmoke;
+    height: 2rem;
 }
