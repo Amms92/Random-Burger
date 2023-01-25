@@ -5,8 +5,8 @@ const componentThree = ['Ketchup', 'Mayonnaise', 'Mustard', 'Barbecue sauce', 'b
 const getRandomComponent = array => array[Math.floor(Math.random() * array.length)];
 
 const makeBurger = () => {
-    console.log(`You make a burger consisting of a Top bun - ${getRandomComponent(componentOne)} - ${getRandomComponent(componentTwo)} - middle bun - ${getRandomComponent(componentOne)} - ${getRandomComponent(componentThree)} and a bottom bun.`);
+    return `You make a burger consisting of a Top bun - ${getRandomComponent(componentOne)} 
+    - ${getRandomComponent(componentTwo)} - middle bun - ${getRandomComponent(componentOne)} 
+    - ${getRandomComponent(componentThree)} and a bottom bun.`;
 };
-
-console.log(getRandomComponent(componentOne));
-makeBurger();
+document.getElementById("game").innerHTML = makeBurger();
